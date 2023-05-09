@@ -3027,7 +3027,7 @@ width:100%;
 /*-- hs testi slider wrapper End --*/
 /*-- hs advert wrapper Start --*/
 .hs_advert_main_wrapper{
-	background:url('../images/content/advert_bg.jpg') 50% 0 repeat-y;
+	background:url('../images/content/advert_bg.webp') 50% 0 repeat-y;
 	background-size:cover;
 	background-position:center 0;
 	background-repeat:no-repeat;
