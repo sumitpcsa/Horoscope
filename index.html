@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta name="description" content="Horoscope" />
     <meta name="keywords" content="Horoscope" />
-    <meta name="author" content="" />
+    <meta name="author" content="sumitpcsa" />
     <meta name="MobileOptimized" content="320" />
     <!--srart theme style -->
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
@@ -34,7 +34,7 @@
     </div>
     <!-- hs top header Start -->
     <div class="hs_top_header_main_Wrapper">
-        <div class="container">
+        <div class="container d-flex justify-content-between">
             <div class="hs_header_logo_left hidden-xs">
                 <div class="hs_logo_wrapper">
                     <a href="index.html"><img src="images/header/logo.png" class="img-responsive" alt="logo"
@@ -42,15 +42,6 @@
                 </div>
             </div>
             <div class="hs_header_logo_right">
-                <div class="hs_top_user_profile" data-toggle="modal" data-target="#myModal">
-                    <img src="images/header/top_user.jpg" alt="user">
-                    <p><i class="fa fa-plus"></i></p>
-                </div>
-                <div class="hs_btn_wrapper">
-                    <ul>
-                        <li><a href="#" class="hs_btn_hover">Appointments</a></li>
-                    </ul>
-                </div>
                 <div class="hs_header_add_wrapper hidden-xs hidden-sm">
                     <div class="hs_header_add_icon">
                         <i class="fa fa-home"></i>
@@ -96,61 +87,21 @@
     <!-- hs Navigation Start -->
     <div class="hs_navigation_header_wrapper">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 d-flex justify-content-center">
                     <nav class="hs_main_menu hidden-xs">
                         <ul>
                             <li>
-                                <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button" href="#">Home</a>
-                                    <!-- <div class="drop-menu">
-                                        <a class="menu-button" href="index.html">Home</a>
-                                        <a class="menu-button" href="index2.html">Home2</a>
-                                    </div> -->
-                                </div>
+                                <a class="active_menu menu-button" href="./index.html">Home</a>
                             </li>
                             <li>
-                                <!-- <a class="menu-button" href="about.html">About Us</a> -->
-                                <a class="menu-button" href="kundli_dosh.html">About Us</a>
+                                <a class="menu-button" href="./about.html">About Us</a>
                             </li>
-                            <!-- <li>
-                                <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button" href="#">Pages</a>
-                                    <div class="drop-menu hs_mega_menu">
-                                        <a class="menu-button" href="aries.html">Aries</a>
-                                        <a class="menu-button" href="chinese.html">Chinese</a>
-                                        <a class="menu-button" href="chinese_single.html">Chinese-Single</a>
-                                        <a class="menu-button" href="crystal.html">Crystal</a>
-                                        <a class="menu-button" href="kundli_dosh.html">Kundli-Dosh</a>
-                                        <a class="menu-button" href="numerology.html">Numerology</a>
-                                        <a class="menu-button" href="palm.html">Palm</a>
-                                        <a class="menu-button" href="tarot.html">Tarot</a>
-                                        <a class="menu-button" href="tarot_single.html">Tarot-Single</a>
-                                        <a class="menu-button" href="vastu_shastra.html">Vastu-Shastra</a>
-                                    </div>
-                                </div>
-                            </li> -->
                             <li>
-                                <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button" href="#">What We Do</a>
-                                    <!-- <div class="drop-menu">
-                                        <a class="menu-button" href="shop.html">Shop</a>
-                                        <a class="menu-button" href="shop_single.html">Shop-Single</a>
-                                    </div> -->
-                                </div>
+                                <a class="menu-button" href="./kundli_dosh.html">What We Do</a>
                             </li>
-                            <!-- <li>
-                                <div class="dropdown-wrapper menu-button">
-                                    <a class="menu-button" href="#">Blog </a>
-                                    <div class="drop-menu">
-                                        <a class="menu-button" href="blog_categories.html">Blog-Categories</a>
-                                        <a class="menu-button" href="blog_single.html">Blog-Single</a>
-                                    </div>
-                                </div>
-                            </li> -->
                             <li>
-                                <!-- <a class="menu-button" href="contact.html">Contact Us </a> -->
-                                <a class="menu-button" href="#footer">Contact Us </a>
+                                <a class="menu-button" href="./contact.html">Contact Us </a>
                             </li>
                         </ul>
                     </nav>
@@ -369,60 +320,7 @@
                         <!-- .cd-dropdown-wrapper -->
                     </header>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-xs">
-                    <div class="hs_navi_searchbar_wrapper">
-                        <input type="text" placeholder="Search here">
-                        <button><i class="fa fa-search"></i></button>
-                    </div>
-                    <div class="hs_navi_cart_wrapper">
-                        <div class="dropdown-wrapper menu-button">
-                            <a class="menu-button" href="#"><i class="flaticon-shop"></i><span>3</span></a>
-                            <div class="drop-menu">
 
-                                <div class="cc_cart_wrapper1 menu-button">
-                                    <div class="cc_cart_img_wrapper">
-                                        <img src="images/content/cart_img.jpg" alt="cart_img" />
-                                    </div>
-                                    <div class="cc_cart_cont_wrapper">
-                                        <h4><a href="#">Gemstone</a></h4>
-                                        <p>Quantity : 2 × $45</p>
-                                        <h5>$90</h5>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                </div>
-                                <div class="cc_cart_wrapper1 menu-button">
-                                    <div class="cc_cart_img_wrapper">
-                                        <img src="images/content/cart_img.jpg" alt="cart_img" />
-                                    </div>
-                                    <div class="cc_cart_cont_wrapper">
-                                        <h4><a href="#">Gemstone</a></h4>
-                                        <p>Quantity : 2 × $45</p>
-                                        <h5>$90</h5>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                </div>
-                                <div class="cc_cart_wrapper1 menu-button">
-                                    <div class="cc_cart_img_wrapper">
-                                        <img src="images/content/cart_img.jpg" alt="cart_img" />
-                                    </div>
-                                    <div class="cc_cart_cont_wrapper">
-                                        <h4><a href="#">Gemstone</a></h4>
-                                        <p>Quantity : 2 × $45</p>
-                                        <h5>$90</h5>
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    </div>
-                                </div>
-                                <div class="cc_cart_wrapper1 menu-button">
-                                    <div class="hs_effect_btn ceckout_btn">
-                                        <ul>
-                                            <li><a href="#" class="hs_btn_hover">checkout</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

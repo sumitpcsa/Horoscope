@@ -6875,3 +6875,8 @@ width:100%;
 }
 /*-- btc shop single tabs Wrapper End --*/
 /**************------ SHOP SINGLE CSS END -------*******************/
+
+/* Custom Classes */
+.active_menu {
+	background: #37A4DD;
+}
