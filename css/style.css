@@ -363,11 +363,6 @@ ul {
 	position: relative;
 }
 
-.hs_header_logo_left {
-	float: left;
-	width: 30%;
-}
-
 .hs_header_logo_right {
 	float: left;
 	width: 70%;
@@ -378,8 +373,12 @@ ul {
 }
 
 .hs_logo_wrapper a img {
-	width: 25%;
+	width: 15%;
 	height: auto;
+	animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-name: clockwiseSpin;
+   animation-timing-function: linear;
 }
 
 .hs_header_add_wrapper {
@@ -622,7 +621,7 @@ ul {
 
 .hs_main_menu a {
 	text-align: center;
-	padding: 26px 20px 26px 20px;
+	padding: 32px 25px;
 	display: inline-block;
 	color: #ffffff;
 	-webkit-transition: all 0.5s;
@@ -7838,6 +7837,17 @@ ul {
 
 .what_we_do_img img {
 	width: 540px;
-    height: auto;
-    padding: 90px 0;
+	height: auto;
+	padding: 90px 0;
 }
+
+/* Custom Animation  */
+
+@keyframes clockwiseSpin {
+	from  {
+	  transform: rotate(0deg);
+   }
+   to {
+	  transform: rotate(360deg);
+	}	
+ }
