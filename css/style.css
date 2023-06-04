@@ -7841,6 +7841,15 @@ ul {
 	padding: 90px 0;
 }
 
+.join_us_wrapper {
+	padding: 30px 0;
+}
+
+.join_us_wrapper .container h2 {
+	text-align: center;
+	line-height: 45px;
+}
+
 /* Custom Animation  */
 
 @keyframes clockwiseSpin {
