@@ -8220,3 +8220,7 @@ button.close {
 .align-items-center {
   align-items: center;
 }
+
+.py-6 {
+  padding: 5rem 0;
+}

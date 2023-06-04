@@ -4337,7 +4337,7 @@ ul {
 .hs_kd_left_sidebar_main_wrapper {
 	float: left;
 	width: 100%;
-	margin-top: 100px;
+	/* margin-top: 100px; */
 }
 
 .hs_kd_first_sec_wrapper {
@@ -7838,7 +7838,6 @@ ul {
 .what_we_do_img img {
 	width: 540px;
 	height: auto;
-	padding: 90px 0;
 }
 
 .join_us_wrapper {
