@@ -3144,9 +3144,11 @@ ul {
 /*-- hs latest news wrapper End --*/
 /*-- hs Counter wrapper Start --*/
 .hs_counter_main_wrapper {
-	float: left;
+	/* float: left; */
 	width: 100%;
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 .hs_counter_cont_wrapper {
@@ -3606,15 +3608,32 @@ ul {
 }
 
 .hs_footer_logo_wrapper {
-	float: left;
+	/* float: left; */
 	width: 100%;
 	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
-.hs_footer_logo_wrapper img {
-	display: inline-block;
+.hs_footer_logo_wrapper a {
+	display: flex;
+	justify-content: center;
+}
+
+.hs_footer_logo_wrapper a span {
+	margin: auto 0;
+	color: #fff;
+	font-size: large;
+}
+
+.hs_footer_logo_wrapper a img {
+	/* display: inline-block; */
+	width: 25%;
+	height: auto;
+	animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-name: clockwiseSpin;
+   animation-timing-function: linear;
 }
 
 .hs_footer_logo_wrapper p {
@@ -7847,6 +7866,15 @@ ul {
 .join_us_wrapper .container h2 {
 	text-align: center;
 	line-height: 45px;
+}
+
+.hs_footer_contact_wrapper  h4 {
+	color: #fff !important;
+	margin-bottom: -15px;
+}
+
+.color-orange {
+	color: #FF7E00;
 }
 
 /* Custom Animation  */
