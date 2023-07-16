@@ -358,3 +358,16 @@
     });
 
 })(jQuery);
+
+// Sumit Pandey Functions Starts
+
+function openHelpMenu() {
+    $('.helpMenuForm').removeClass('dNone');
+}
+
+function closeHelpMenu() {
+    $('.helpMenuForm').addClass('dNone');
+    
+}
+
+// Sumit Pandey Functions Ends

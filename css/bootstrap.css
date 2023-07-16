@@ -8221,6 +8221,14 @@ button.close {
   align-items: center;
 }
 
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
 .py-6 {
   padding: 5rem 0;
 }

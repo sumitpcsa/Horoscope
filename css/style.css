@@ -376,9 +376,9 @@ ul {
 	width: 15%;
 	height: auto;
 	animation-duration: 10s;
-   animation-iteration-count: infinite;
-   animation-name: clockwiseSpin;
-   animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-name: clockwiseSpin;
+	animation-timing-function: linear;
 }
 
 .hs_header_add_wrapper {
@@ -3631,9 +3631,9 @@ ul {
 	width: 25%;
 	height: auto;
 	animation-duration: 10s;
-   animation-iteration-count: infinite;
-   animation-name: clockwiseSpin;
-   animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-name: clockwiseSpin;
+	animation-timing-function: linear;
 }
 
 .hs_footer_logo_wrapper p {
@@ -3727,7 +3727,7 @@ ul {
 .hs_footer_help_wrapper:after {
 	content: '';
 	border: 1px solid #383838;
-	height: 455px;
+	height: 600px;
 	position: absolute;
 	top: -100px;
 	left: -15px;
@@ -3736,7 +3736,7 @@ ul {
 .hs_footer_help_wrapper:before {
 	content: '';
 	border: 1px solid #383838;
-	height: 455px;
+	height: 600px;
 	position: absolute;
 	top: -100px;
 	right: -15px;
@@ -7868,7 +7868,7 @@ ul {
 	line-height: 45px;
 }
 
-.hs_footer_contact_wrapper  h4 {
+.hs_footer_contact_wrapper h4 {
 	color: #fff !important;
 	margin-bottom: -15px;
 }
@@ -7877,13 +7877,120 @@ ul {
 	color: #FF7E00;
 }
 
+.helpMenu {
+	/* position: fixed;
+	bottom: 20%;
+	right: 3.5%;
+	z-index: 1000; */
+}
+
+.helpMenu img {
+	width: 80px;
+	height: auto;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+	cursor: pointer;
+}
+
+.helpMenuForm {
+	position: absolute;
+	top: 25%;
+	right: 0;
+	width: 90%;
+}
+
+.helpMenuForm form .card {
+	background: #FF7E00;
+	padding: 25px;
+	border-radius: 5px;
+}
+
+.helpMenuForm form .card div:nth-child(1) {
+	color: #fff;
+	text-align: center;
+	margin: 10px 5px;
+}
+
+.helpMenuForm input , .helpMenuForm textarea {
+	width: 80%;
+	border-radius: 5px;
+}
+
+.closehelpMenuForm {
+	position: absolute;
+	top: 0;
+	right: 2%;
+	color: #fff;
+	cursor: pointer;
+}
+
+.my-1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mb-1 {
+	margin-bottom: 10px;
+}
+
+.dNone {
+	display: none;
+}
+
 /* Custom Animation  */
 
 @keyframes clockwiseSpin {
-	from  {
-	  transform: rotate(0deg);
-   }
-   to {
-	  transform: rotate(360deg);
-	}	
- }
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
