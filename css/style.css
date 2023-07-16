@@ -7918,10 +7918,19 @@ ul {
 
 .closehelpMenuForm {
 	position: absolute;
-	top: 0;
-	right: 2%;
+	top: 1%;
+	right: 3%;
 	color: #fff;
 	cursor: pointer;
+}
+
+.helpMenuFormBtn {
+	background: #fff;
+	color: #FF7E00;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	padding: 7px 12px;
 }
 
 .my-1 {
